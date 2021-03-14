@@ -15,7 +15,7 @@ end
 def determine_response(guess, answer)
   binding.pry 
   if guess == answer
-    puts "You guess the correct number!"
+    puts "You guessed the correct number!"
     binding.pry 
   elsif guess == "exit"
     puts "Goodbye!"
