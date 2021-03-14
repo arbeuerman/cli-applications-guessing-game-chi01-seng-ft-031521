@@ -18,7 +18,7 @@ def determine_response(guess, answer)
   elsif guess == "exit"
     puts "Goodbye!"
   else
-    puts "sorry! The computer guessed #{answer}"
+    puts "Sorry! The computer guessed #{answer}"
   end 
 end 
 
