@@ -36,5 +36,5 @@ def run_guessing_game
   guess = get_user_input
   binding.pry 
   #print out one of three statements based on guess 
-  determine_response(guess, answer)
+  determine_response(guess.to_i, answer)
 end 
